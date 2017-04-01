@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Profiler/RCTPerfMonitor.m \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Modules/RCTDevMenu.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Profiler/RCTFPSGraph.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTJavaScriptExecutor.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Executors/RCTJSCExecutor.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Modules/RCTUIManager.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Views/RCTViewManager.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/mymac/myTabBarAndNavigationTest/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/mymac/myTabBarAndNavigationTest/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/mymac/myTabBarAndNavigationTest/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/mymac/myTabBarAndNavigationTest/node_modules/react-native/React/Base/RCTBridge+Private.h
