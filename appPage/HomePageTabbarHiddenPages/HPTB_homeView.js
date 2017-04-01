@@ -11,40 +11,41 @@ import {
     Text,
     View,
     TouchableOpacity,
+    Navigator,
 } from 'react-native';
 
-import FirstPage_first from './FirstPages/FirstPage_first'
 
-import TabNavigator from 'react-native-tab-navigator'
 
 //获取屏幕的宽和高
 //使用Dimensions
 var Dimensions = require('Dimensions');
 var {screenWidth,screenHeight} = Dimensions.get('window');
 
-export default class FirstPage extends Component {
+import HPTB_secondView from './HPTB_SecondView'
+
+export default class HPTB_homeView extends Component {
+
     constructor(props){
         super(props);
-        this.state ={
-          selectedTab:'home'
-        };
     }
 
-    //跳转下一个页面
-    goToNextPage () {
+    jumpSecondView () {
+
+
 
         this.props.navigator.push({
-            component:FirstPage_first
+            component:HPTB_secondView,
+            params:{}
+
         })
-
     }
-
-
     render() {
         return (
             <View style={FirstStyle.ViewStyle}>
-                <TouchableOpacity onPress={() => this.goToNextPage()}>
+
+                <TouchableOpacity onPress={ () => this.jumpSecondView()}>
                     <Text style={FirstStyle.textStyle}>第一个页面</Text>
+
                 </TouchableOpacity>
 
             </View>
@@ -56,12 +57,12 @@ const FirstStyle = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'red',
+        backgroundColor: 'green',
     },
     textStyle: {
         textAlign: 'center',
         color: '#333333',
-        marginBottom: 5,
+        marginTop:100,
     },
 });
-AppRegistry.registerComponent('myTabBarAndNavigationTest', () => FirstPage);
+AppRegistry.registerComponent('myTabBarAndNavigationTest', () => HPTB_homeView);
